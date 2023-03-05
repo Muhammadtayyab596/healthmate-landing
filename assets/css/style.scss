@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import "header";
+@import "banner";
+@import "about-us";
+@import "services";
+
+body {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #424242;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+button{
+    border: none;
+}
+
+.containe-btn{
+    border: none;
+    background: #528AC8;
+    padding: 10px 45px;
+    font-weight: 500;
+}
+
+
+
+// Text color
+
+.text-white {
+    color: #fff;
+}
+.text-blue{
+    color: #0152A8;
+}
+.text-light-blue{
+    color: #87CEEB;
+}
+.text-grey{
+    color: #5A5A5A
+}
+
+
+
