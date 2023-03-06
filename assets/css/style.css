@@ -7,7 +7,7 @@
 
 .top-header {
   padding: 18px 30px;
-  background-color: #322B80;
+  background-color: #0152a8;
 }
 .top-header p {
   color: #fff;
@@ -132,7 +132,6 @@
   background-size: cover;
   width: 100%;
   height: 80vh;
-  margin-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,6 +151,58 @@
   padding: 15px 40px;
   font-weight: 600;
   margin-top: 15px;
+}
+
+.ineventory {
+  background-color: #fff;
+  padding: 50px 0px;
+}
+.ineventory h3 {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.why-choose-section {
+  background-image: url("../images/why-bg.png");
+  background-color: #dcedfe;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 70px 0px;
+  background-attachment: fixed;
+}
+.why-choose-section .section-title-wrap h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.why-choose-section .section-title-wrap p {
+  font-weight: 500;
+}
+.why-choose-section .section-title-wrap .section-sub-title-wrap {
+  display: inline-block;
+  padding: 5px 20px;
+  border: 1px solid #cecece;
+}
+.why-choose-section .section-title-wrap .section-sub-title-wrap .section-sub-title-content {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  letter-spacing: 4px;
+}
+.why-choose-section .choosing-points-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.why-choose-section .choosing-points-flex .choosing-list-wrap {
+  display: flex;
+  align-items: flex-start;
+}
+.why-choose-section .choosing-points-flex .choosing-list-wrap p {
+  margin-left: 15px;
+  color: #0152a8;
+  font-weight: 500;
 }
 
 body {

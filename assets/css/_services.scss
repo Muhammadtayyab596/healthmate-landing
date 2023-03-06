@@ -1,24 +1,30 @@
-.our-services{
+.our-services {
   padding: 10px 0px 60px 0px;
-  .top-heading{
+
+  .top-heading {
     margin: 25px 0px;
-    h2{
+
+    h2 {
       font-size: 50px;
       font-weight: 700;
     }
-    h6{
+
+    h6 {
       font-size: 20px;
       font-weight: 700;
     }
   }
-  .single_feature_part{
+
+  .single_feature_part {
     margin-top: 50px;
-    h4{
+
+    h4 {
       font-size: 20px;
       font-weight: 600;
       margin: 20px 0px;
     }
-    p{
+
+    p {
       font-size: 16px;
     }
   }
@@ -26,7 +32,7 @@
 
 
 
-.online-consultations{
+.online-consultations {
   background: url("../images/online-consultation-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -34,24 +40,86 @@
   width: 100%;
   // height: 600px;
   height: 80vh;
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-attachment: fixed;
-  .content{
+
+  .content {
     text-align: center;
-    h2{
+
+    h2 {
       color: #fff;
       font-size: 40px;
       line-height: 55px;
     }
-    button{
+
+    button {
       background: #0FE3AF;
       color: #000;
       padding: 15px 40px;
       font-weight: 600;
       margin-top: 15px;
+    }
+  }
+}
+
+
+
+.ineventory {
+  background-color: #fff;
+  padding: 50px 0px;
+
+  h3 {
+    font-size: 35px;
+    font-weight: 800;
+  }
+}
+
+
+.why-choose-section {
+  background-image: url("../images/why-bg.png");
+  background-color: #dcedfe;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 70px 0px;
+  background-attachment: fixed;
+  .section-title-wrap {
+    h2{
+      font-size: 35px;
+      font-weight: 700;
+      margin: 20px 0px;
+    }
+    p{
+      font-weight: 500;
+    }
+    .section-sub-title-wrap {
+      display: inline-block;
+      padding: 5px 20px;
+      border: 1px solid #cecece;
+
+      .section-sub-title-content {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        letter-spacing: 4px;
+      }
+    }
+  }
+  .choosing-points-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .choosing-list-wrap{
+      display: flex;
+      align-items: flex-start;
+      p{
+        margin-left: 15px;
+        color: #0152a8;
+        font-weight: 500;
+      }
     }
   }
 }
