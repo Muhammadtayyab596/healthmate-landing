@@ -10,6 +10,7 @@
 @import "banner";
 @import "about-us";
 @import "services";
+@import "footer";
 
 body {
     font-family: 'Quicksand', sans-serif !important;
@@ -30,7 +31,7 @@ a {
 
 ul {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     list-style: none;
 }
 
