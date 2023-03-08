@@ -4,6 +4,46 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 70px 0px;
+    padding: 70px 0px 20px 0px;
     background-attachment: fixed;
+    .footer_head{
+        padding-bottom: 50px;
+    }
+    .third-wrapper{
+        ul{
+            padding-left: 0px;
+            margin-top: 30px;
+            li{
+                margin: 5px 0px;
+                a{
+                    color: black;
+
+                }
+            }
+        }
+    }
+    .second-wrapper{
+        ul{
+            padding-left: 0px;
+            margin-top: 30px;
+            li{
+                margin: 5px 0px;
+                a{
+                    color: black;
+
+                }
+            }
+        }
+    }
+    .first-wrapper{
+        p{
+            font-size: 20px;
+            font-weight: 600;
+            margin-top:20px;
+        }
+    }
+    .footer_last{
+        // text-align: center;
+        font-weight: 500;
+    }
 }
