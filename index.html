@@ -54,19 +54,19 @@
                             <a class="nav-link active" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Guide</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#Contact-me">Contact Us</a>
                         </li>
                     </ul>
-                    <button class="containe-btn text-white ms-3">Login</button>
+                    <a href="http://localhost:3000/login" class="containe-btn text-white ms-3">Login</a>
                 </div>
             </div>
         </nav>
@@ -86,7 +86,7 @@
                     </div>
                     <p>This is open to everyone every day and provides primary <br> health care and cutting-edge
                         medicine in a central location.</p>
-                    <button class="containe-btn text-white">Get Start</button>
+                    <a href="http://localhost:3000/login" class="containe-btn text-white">Get Started</a>
                 </div>
             </div>
         </div>
@@ -110,7 +110,7 @@
     </section>
 
     <!-- About us -->
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-6 col-lg-6">
@@ -130,7 +130,7 @@
                             you never run out. Plus, our network of healthcare professionals and pharmacists is always
                             available to answer any questions you may have and provide expert advice on managing your
                             health.</p>
-                        <button class="containe-btn text-white">Get Start</button>
+                        <a href="http://localhost:3000/login" class="containe-btn text-white">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
 
 
     <!-- Our Services -->
-    <section class="our-services">
+    <section class="our-services" id="services">
         <div class="container">
             <div class="top-heading">
                 <h2 class="text-center">Our Service</h2>
@@ -150,9 +150,11 @@
                     <div class="single_feature_part">
                         <div>
                             <span class="single_feature_icon">
-                                <img width="15%" src="./assets/images/feature_1.svg" alt="">
+                                <img width="25%" class="img-fluid" src="./assets/images/pills.png" alt="">
+                                <!-- <i class="fa-regular fa-prescription-bottle-medical"></i> -->
+                                <!-- <i class="fa-solid fa-prescription-bottle-medical"></i> -->
                             </span>
-                            <h4 class="text-blue">Comparison Formulas</h4>
+                            <h4 class="text-blue">Formulas Comparison</h4>
                         </div>
                         <p>
                             Our website's comparison tool provides detailed information on medications, including uses,
@@ -164,7 +166,7 @@
                     <div class="single_feature_part">
                         <div>
                             <span class="single_feature_icon">
-                                <img width="15%" src="./assets//images/feature_1.svg" alt="">
+                                <img width="25%" src="./assets//images/medical-history.png" alt="">
                             </span>
                             <h4 class="text-blue">Medications Information</h4>
                         </div>
@@ -184,7 +186,7 @@
                     <div class="single_feature_part">
                         <div>
                             <span class="single_feature_icon">
-                                <img width="15%" src="./assets//images/feature_1.svg" alt="">
+                                <img width="25%" src="./assets//images/consultation.png" alt="">
                             </span>
                             <h4 class="text-blue">Medical Experts</h4>
                         </div>
@@ -197,7 +199,7 @@
                     <div class="single_feature_part">
                         <div>
                             <span class="single_feature_icon">
-                                <img width="15%" src="./assets//images/feature_1.svg" alt="">
+                                <img width="25%" src="./assets//images/information.png" alt="">
                             </span>
                             <h4 class="text-blue">Latest Information</h4>
                         </div>
@@ -233,12 +235,16 @@
                     <img class="img-fluid" src="./assets//images/inv-04.png" alt="inventory">
                 </div>
                 <div class="col-md-6">
-                    <h3 class="text-blue">Never worry about you Inventory</h3>
-                    <p>Providing you the peace of mind knowing that you never have to worry about running out of your
-                        medications or forgetting to refill your prescription.</p>
-                    <p>Our inventory management tools and medication information resources make it easy to stay on top
-                        of your healthcare needs, so you can focus on living a healthy and happy life.</p>
-                    <button class="containe-btn text-white mt-2">Create Bill</button>
+                    <h3 class="text-blue">Medicines Recommendation</h3>
+                    <p>We are here to provide you with comprehensive and reliable information to help you make informed
+                        decisions about your medications.</p>
+                    <p>Our platform is designed to offer user-friendly access to a wide range of medicines, their uses,
+                        dosages, side effects, and potential interactions.</p>
+                    <!-- <button class="containe-btn text-white mt-2">Create Bill</button> -->
+                    <p class="text-danger fw-bold">
+                        <i class="fas fa-exclamation-triangle"></i> Please remember that all medications require consultation with a healthcare professional before
+                        use.
+                    </p>
                 </div>
             </div>
         </div>
@@ -280,7 +286,7 @@
                 <div class="choosing-points-flex mt-3">
                     <div class="choosing-list-wrap">
                         <img src="./assets/images/why-icon.svg" alt="">
-                        <p>Available Stocks & inventor</p>
+                        <p>Medicines Recommendations</p>
                     </div>
                     <div class="choosing-list-wrap">
                         <img src="./assets/images/why-icon.svg" alt="">
@@ -307,9 +313,7 @@
                 <div class="col-md-6 mb-5">
                     <div class="Get-In-Touch">
                         <h4 class="fw-bold text-primary">Get-In-Touch</h4>
-                        <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. arum corrupti fugit
-                            recusandae, arum corrupti fugit recusandae,arum corrupti fugit recusandae, reprehenderit
-                            dolorum animi voluptas mollitia nesciunt?
+                        <p class="fs-6">If you have any questions, feedback, or concerns about our website, products, or services, we encourage you to get in touch with us. Simply fill out the contact form, and our dedicated team will respond as soon as possible.
                         </p>
                     </div>
                     <!-- User-Icon -->
@@ -365,7 +369,7 @@
                                 placeholder="Subject">
                         </div>
                         <div class="mt-4">
-                            <textarea class="form-control form-control-lg" placeholder="Comment" id="floatingTextarea2"
+                            <textarea class="form-control form-control-lg" placeholder="" id="floatingTextarea2"
                                 style="height: 120px">
                             </textarea>
                         </div>
@@ -404,14 +408,12 @@
                                     <a href="">Trending Medicine</a>
                                 </li>
                                 <li>
-                                    <a href="">Pharma Company</a>
+                                    <a href="">Medicine Recommendation</a>
                                 </li>
                                 <li>
-                                    <a href="">Pharma Company</a>
+                                    <a href="">Online Consultation</a>
                                 </li>
-                                <li>
-                                    <a href="">Medical Store</a>
-                                </li>
+
                             </ul>
                         </div>
                     </div>
@@ -420,22 +422,19 @@
                             <h3>Explore</h3>
                             <ul>
                                 <li>
-                                    <a href="">Home</a>
+                                    <a href="#">Home</a>
                                 </li>
                                 <li>
-                                    <a href="">About Us</a>
+                                    <a href="#about">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="">Services</a>
+                                    <a href="#services">Services</a>
                                 </li>
                                 <li>
-                                    <a href="">Guide</a>
+                                    <a href="#">Guide</a>
                                 </li>
                                 <li>
-                                    <a href="">Login</a>
-                                </li>
-                                <li>
-                                    <a href="">Signup</a>
+                                    <a href="http://localhost:3000/login">Login</a>
                                 </li>
                             </ul>
                         </div>
